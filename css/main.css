@@ -20,7 +20,6 @@ h2 {
   margin-bottom: 1rem;
 }
 
-/* UL GENERAL del NAV */
 nav {
   background-color: var(--third-color);
   color: var(--second-color);
@@ -36,8 +35,9 @@ nav ul {
   margin: 0;
 }
 
-/* MENÚ Vertical */
-nav#vertical { width: 20vw; }
+nav#vertical { 
+  width: 20vw; 
+}
 
 nav#vertical ul {
   display: flex;
@@ -46,9 +46,10 @@ nav#vertical ul {
   margin: 0;
 }
 
-nav#vertical li { width: 100%;}
+nav#vertical li { 
+  width: 100%;
+}
 
-/* MENÚ Horizontal */
 nav#horizontal ul {
   display: flex;
   align-items: center;
